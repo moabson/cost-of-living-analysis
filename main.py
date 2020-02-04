@@ -19,17 +19,20 @@ dataframe["clusters"] = model.fit_predict(features_data)
 
 dataframe.to_csv("data/result.csv")
 
-group_by_clusters = dataframe.groupby("clusters");
+group_by_clusters = dataframe.groupby("clusters")
 average = group_by_clusters.mean()
 std = group_by_clusters.std()
 
+i = 0
 for feature in features:
     print(feature)
     print(average[feature])
     print(std[feature])
     group_by_clusters.boxplot(column = feature)
-    plt.show()
+    # plt.show()
+    plt.savefig("data/fig_" + str(i))
     print()
+    i += 1
 
 reduced_data = PCA(n_components=2).fit_transform(features_data)
 results = pd.DataFrame(reduced_data, columns=["pca1","pca2"])
