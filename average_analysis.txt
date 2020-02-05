@@ -1,0 +1,277 @@
+Kruskal-Wallis H Test
+
+Meal, Inexpensive Restaurant
+cluster:0, average:12.266969696969698, std:4.1696721130447445, 0
+cluster:2, average:8.616875, std:6.86973043503164, 0
+cluster:1, average:6.595225225225224, std:3.152826681753389, 0
+
+Meal for 2 People, Mid-range Restaurant, Three-course
+cluster:0, average:52.7139393939394, std:14.117391521496176, 0
+cluster:2, average:43.008125, std:30.15374077816327, 0
+cluster:1, average:29.687297297297288, std:14.216652140484344, 0
+
+McMeal at McDonalds (or Equivalent Combo Meal)
+cluster:2, average:7.157500000000001, std:3.4945090260769587, 0
+cluster:0, average:7.11878787878788, std:1.6497627813866107, 0
+cluster:1, average:4.973333333333335, std:1.4491962244532985, 1
+
+Domestic Beer (0.5 liter draught)
+cluster:0, average:4.754848484848486, std:1.3149812765114788, 0
+cluster:2, average:4.569375000000001, std:2.9077493444243094, 0
+cluster:1, average:2.623423423423425, std:1.908001093717761, 1
+
+Imported Beer (0.33 liter bottle)
+cluster:0, average:5.009696969696971, std:1.2319103174756796, 0
+cluster:2, average:4.930000000000001, std:2.456637268028527, 0
+cluster:1, average:3.1375675675675674, std:1.7813877206555035, 1
+
+Coke/Pepsi (0.33 liter bottle)
+cluster:0, average:1.9136363636363634, std:0.7028416348199384, 0
+cluster:2, average:1.3775, std:1.018911183568028, 0
+cluster:1, average:1.0504504504504504, std:0.5456762066670331, 0
+
+Water (0.33 liter bottle) 
+cluster:0, average:1.503939393939394, std:0.6049118706159776, 0
+cluster:2, average:1.01625, std:0.8579656170266965, 0
+cluster:1, average:0.7543243243243245, std:0.48078273607944716, 0
+
+Milk (regular), (1 liter)
+cluster:2, average:1.299375, std:0.36398660689646267, 0
+cluster:0, average:1.2269696969696968, std:0.5551040715965162, 0
+cluster:1, average:0.8878378378378381, std:0.27001146576801444, 1
+
+Loaf of Fresh White Bread (500g)
+cluster:0, average:2.085151515151515, std:0.6125975494366246, 0
+cluster:2, average:1.3868749999999999, std:0.888659805549908, 1
+cluster:1, average:0.9068468468468472, std:0.5409856021978974, 2
+
+Eggs (regular) (12)
+cluster:0, average:2.5966666666666667, std:0.6506519166702476, 0
+cluster:2, average:2.2399999999999998, std:1.0958284537280458, 0
+cluster:1, average:1.6479279279279284, std:0.5523686468574426, 0
+
+Local Cheese (1kg)
+cluster:0, average:12.000303030303034, std:4.011691885015975, 0
+cluster:2, average:10.876249999999999, std:3.1851507028710584, 0
+cluster:1, average:6.462882882882882, std:1.877500459938153, 1
+
+Water (1.5 liter bottle)
+cluster:0, average:1.1869696969696968, std:0.49487678295008986, 0
+cluster:2, average:0.873125, std:0.4564605678478701, 1
+cluster:1, average:0.6968468468468471, std:0.3970344202664688, 1
+
+Bottle of Wine (Mid-Range)
+cluster:2, average:13.703750000000001, std:6.76058170574101, 0
+cluster:0, average:10.443333333333335, std:3.142610048457598, 0
+cluster:1, average:7.200090090090092, std:3.4975340652043037, 1
+
+Domestic Beer (0.5 liter bottle)
+cluster:2, average:2.004375, std:1.000366391212073, 0
+cluster:0, average:1.758484848484848, std:0.686249413533999, 0
+cluster:1, average:1.2859459459459461, std:0.8832598489051571, 1
+
+Imported Beer (0.33 liter bottle).1
+cluster:2, average:2.7087499999999998, std:1.183733500412994, 0
+cluster:0, average:2.2584848484848488, std:0.6142532112864837, 0
+cluster:1, average:1.9079279279279278, std:0.956854807183996, 1
+
+Cigarettes 20 Pack (Marlboro)
+cluster:0, average:8.39030303030303, std:4.435899348531596, 0
+cluster:2, average:5.583125, std:3.5286724959017284, 1
+cluster:1, average:4.293783783783784, std:3.250789849211211, 1
+
+One-way Ticket (Local Transport)
+cluster:0, average:2.089090909090909, std:0.8174860994092027, 0
+cluster:2, average:1.3293749999999998, std:1.2297396404659537, 1
+cluster:1, average:0.9749549549549542, std:0.879568979024152, 1
+
+Chicken Breasts (Boneless, Skinless), (1kg)
+cluster:0, average:9.12121212121212, std:3.56940887751018, 0
+cluster:2, average:6.359999999999999, std:3.7499831110730795, 1
+cluster:1, average:5.045315315315315, std:1.9293083168562195, 1
+
+Monthly Pass (Regular Price)
+cluster:0, average:75.47454545454545, std:32.529309869226886, 0
+cluster:2, average:42.018125, std:31.0817007725875, 1
+cluster:1, average:31.41684684684684, std:22.835524517016022, 1
+
+Gasoline (1 liter)
+cluster:2, average:1.1725000000000003, std:0.4379117110407834, 0
+cluster:0, average:1.1115151515151516, std:0.3723080143856126, 0
+cluster:1, average:1.036036036036036, std:0.2919691119381677, 0
+
+Volkswagen Golf
+cluster:2, average:34437.835625, std:12368.713685619303, 0
+cluster:0, average:20972.824545454543, std:3023.060216889182, 1
+cluster:1, average:17863.419639639636, std:3603.8742265206565, 2
+
+Apartment (1 bedroom) in City Centre
+cluster:0, average:1438.423636363636, std:589.0448213146549, 0
+cluster:2, average:795.54, std:517.2889519407892, 1
+cluster:1, average:515.4340540540542, std:318.7829944631141, 2
+
+Apartment (1 bedroom) Outside of Centre
+cluster:0, average:1039.7951515151515, std:458.61374478640255, 0
+cluster:2, average:556.603125, std:399.91195812276396, 1
+cluster:1, average:368.44189189189177, std:251.41843756253874, 1
+
+Apartment (3 bedrooms) in City Centre
+cluster:0, average:2684.8606060606057, std:1044.4722446525905, 0
+cluster:2, average:1491.5931249999999, std:865.435452649657, 1
+cluster:1, average:940.0890990990987, std:563.7033709489247, 2
+
+Apartment (3 bedrooms) Outside of Centre
+cluster:0, average:1825.570606060606, std:739.3486348086208, 0
+cluster:2, average:978.8887500000001, std:620.7490187923511, 1
+cluster:1, average:640.6578378378375, std:413.0275887800527, 2
+
+Basic (Electricity, Heating, Cooling, Water, Garbage) for 85m2 Apartment
+cluster:0, average:139.57878787878786, std:49.22404587429652, 0
+cluster:2, average:105.78687500000001, std:58.462342035279434, 1
+cluster:1, average:97.6422522522523, std:47.57947503789049, 1
+
+1 min. of Prepaid Mobile Tariff Local (No Discounts or Plans)
+cluster:0, average:0.1521212121212121, std:0.0886269420012044, 0
+cluster:1, average:0.10360360360360354, std:0.08365288445597722, 1
+cluster:2, average:0.08875, std:0.04964876634922563, 1
+
+Internet (60 Mbps or More, Unlimited Data, Cable/ADSL)
+cluster:0, average:41.65393939393939, std:14.773456547850003, 0
+cluster:2, average:27.786875, std:13.133423376383377, 1
+cluster:1, average:26.36549549549551, std:19.368768146812524, 1
+
+Fitness Club, Monthly Fee for 1 Adult
+cluster:0, average:46.29333333333332, std:14.398511786523867, 0
+cluster:2, average:44.290000000000006, std:20.58130932018984, 0
+cluster:1, average:31.209009009009, std:12.12425809951085, 1
+
+Tennis Court Rent (1 Hour on Weekend)
+cluster:0, average:17.400909090909092, std:6.590171357614859, 0
+cluster:2, average:15.363750000000001, std:9.658386942617971, 0
+cluster:1, average:12.904054054054056, std:5.856856646604028, 0
+
+Cinema, International Release, 1 Seat
+cluster:0, average:11.434242424242424, std:2.1760113026806502, 0
+cluster:2, average:7.911874999999999, std:4.032060215737524, 1
+cluster:1, average:6.206036036036034, std:2.6392544674858742, 1
+
+1 Pair of Jeans (Levis 501 Or Similar)
+cluster:2, average:63.87500000000001, std:28.534991384847714, 0
+cluster:0, average:61.47696969696969, std:17.44519247616096, 0
+cluster:1, average:53.201261261261294, std:15.733110431485054, 1
+
+1 Summer Dress in a Chain Store (Zara, H&M, ...)
+cluster:2, average:36.385000000000005, std:10.86487919859213, 0
+cluster:0, average:34.69272727272727, std:3.5419673847376756, 0
+cluster:1, average:32.55837837837837, std:6.004367280350731, 1
+
+1 Pair of Nike Running Shoes (Mid-Range)
+cluster:2, average:84.634375, std:21.49123696416751, 0
+cluster:0, average:78.70242424242426, std:9.552825181033825, 0
+cluster:1, average:70.98405405405403, std:13.946200615115632, 1
+
+1 Pair of Men Leather Business Shoes
+cluster:0, average:108.07303030303031, std:19.357019799811724, 0
+cluster:2, average:92.19624999999999, std:36.160260853594515, 0
+cluster:1, average:76.59162162162163, std:21.651220815487118, 0
+
+Price per Square Meter to Buy Apartment in City Centre
+cluster:0, average:8656.879696969696, std:4883.784158610055, 0
+cluster:2, average:5038.346874999999, std:4463.622991846748, 1
+cluster:1, average:2309.3207207207206, std:1507.642177216833, 2
+
+Price per Square Meter to Buy Apartment Outside of Centre
+cluster:0, average:5266.856363636364, std:3009.6032118358416, 0
+cluster:2, average:3033.3393750000005, std:2529.323354637148, 1
+cluster:1, average:1466.9734234234234, std:944.1269920836396, 2
+
+Average Monthly Net Salary (After Tax)
+cluster:0, average:3017.5466666666675, std:1282.0884667620119, 0
+cluster:2, average:1402.6712499999999, std:1127.9275459642786, 1
+cluster:1, average:986.7327027027026, std:824.2897761929754, 1
+
+Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate
+cluster:1, average:7.81261261261261, std:6.367176870012432, 0
+cluster:2, average:6.3968750000000005, std:3.6502816672141893, 0
+cluster:0, average:3.241818181818182, std:1.1581085186238338, 1
+
+Taxi Start (Normal Tariff)
+cluster:0, average:3.1978787878787873, std:1.066515229543622, 0
+cluster:2, average:2.6424999999999996, std:2.8107590908270073, 0
+cluster:1, average:1.7064864864864864, std:1.200458737050624, 0
+
+Taxi 1km (Normal Tariff)
+cluster:0, average:1.5906060606060606, std:0.7835852673526482, 0
+cluster:2, average:0.8775, std:0.7088159140425672, 1
+cluster:1, average:0.7299999999999995, std:0.5548840992823308, 1
+
+Taxi 1hour Waiting (Normal Tariff)
+cluster:0, average:26.42878787878788, std:12.501597587302532, 0
+cluster:2, average:17.495625000000004, std:19.659675130835712, 1
+cluster:1, average:10.120450450450447, std:10.620197086631029, 1
+
+Apples (1kg)
+cluster:0, average:3.3318181818181816, std:1.319918213719733, 0
+cluster:2, average:2.39375, std:0.4245291509425472, 1
+cluster:1, average:1.5079279279279278, std:0.7067700116048002, 2
+
+Oranges (1kg)
+cluster:0, average:2.902424242424241, std:1.0627559406533276, 0
+cluster:2, average:1.8081250000000004, std:0.5555084007765619, 1
+cluster:1, average:1.3454954954954959, std:0.5583445315292485, 2
+
+Potato (1kg)
+cluster:0, average:2.0363636363636366, std:0.753117762130441, 0
+cluster:2, average:1.214375, std:0.4666328856820959, 1
+cluster:1, average:0.8147747747747747, std:0.48398506146526854, 2
+
+Lettuce (1 head)
+cluster:0, average:1.3809090909090904, std:0.4345857484171251, 0
+cluster:2, average:1.115625, std:0.53648198167941, 0
+cluster:1, average:0.8631531531531533, std:0.4249555741100944, 1
+
+Cappuccino (regular)
+cluster:0, average:3.3439393939393933, std:0.7377412291665155, 0
+cluster:2, average:2.90875, std:1.0712974999192957, 0
+cluster:1, average:2.0339639639639637, std:0.8219713324787374, 1
+
+Rice (white), (1kg)
+cluster:0, average:2.7054545454545456, std:1.1582316556638481, 0
+cluster:2, average:1.46125, std:0.6673617210079303, 1
+cluster:1, average:1.2671171171171176, std:0.6427121331971931, 1
+
+Tomato (1kg)
+cluster:0, average:3.12090909090909, std:1.0959110469044797, 0
+cluster:2, average:1.6274999999999997, std:0.9010623359864363, 1
+cluster:1, average:1.446216216216217, std:0.7575787436468585, 1
+
+Banana (1kg)
+cluster:0, average:1.768484848484849, std:0.5310962790076368, 0
+cluster:2, average:1.564375, std:0.5415036934315407, 0
+cluster:1, average:1.2032432432432436, std:0.3633834993055788, 1
+
+Onion (1kg)
+cluster:0, average:1.8969696969696965, std:0.6391619750134001, 0
+cluster:2, average:1.155, std:0.4708998478091352, 1
+cluster:1, average:0.8213513513513513, std:0.4367326756443006, 2
+
+Beef Round (1kg) (or Equivalent Back Leg Red Meat)
+cluster:0, average:14.473333333333333, std:6.979709282388965, 0
+cluster:2, average:11.975625, std:5.942579651688874, 0
+cluster:1, average:7.807927927927933, std:2.33394676153238, 1
+
+Toyota Corolla 1.6l 97kW Comfort (Or Equivalent New Car)
+cluster:2, average:33688.640625, std:10295.88655130224, 0
+cluster:0, average:19943.56272727272, std:2984.129550834582, 1
+cluster:1, average:18760.042972972977, std:2682.933505805165, 2
+
+Preschool (or Kindergarten), Full Day, Private, Monthly for 1 Child
+cluster:0, average:961.4884848484849, std:521.1900634492733, 0
+cluster:2, average:379.1975, std:370.12353030666213, 1
+cluster:1, average:304.495045045045, std:241.56776886103398, 1
+
+International Primary School, Yearly for 1 Child
+cluster:0, average:17215.92212121212, std:5362.721206406523, 0
+cluster:2, average:7267.739374999999, std:4420.599688750337, 1
+cluster:1, average:5422.717117117116, std:2876.7176755362216, 1
+

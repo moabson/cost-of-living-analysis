@@ -29,8 +29,8 @@ for feature in features:
     print(average[feature])
     print(std[feature])
     group_by_clusters.boxplot(column = feature)
-    # plt.show()
-    plt.savefig("data/fig_" + str(i))
+    plt.show()
+    # plt.savefig("data/fig_" + str(i))
     print()
     i += 1
 
