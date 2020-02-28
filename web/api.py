@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request
 import pandas as pd
 
-country_region_df = pd.read_csv("/home/moabson/eclipse-workspace-python/cost-of-living-analysis/db/map_country_region.csv")
-model_df = pd.read_csv("/home/moabson/eclipse-workspace-python/cost-of-living-analysis/db/model_2.csv")
+country_region_df = pd.read_csv("../db/map_country_region.csv")
+model_df = pd.read_csv("../db/model_2.csv")
 
 map = dict()
 
@@ -54,19 +54,24 @@ def search():
     print("Score for user: ", score)
     
     data = []
+    keywords = []
         
-    if region in map:
-        locations = model_df.loc[model_df["location"].str.contains("|".join(map[region]))]
-        locations_filtred_by_cluster = locations.loc[locations["clusters"] == cluster]
+    if region == "Others":
+        keywords = map["Europe, Asia"].union(map["Balkans"]).union(["Middle east"])
+    else:
+        keywords = map[region]
         
-        for index, row in locations_filtred_by_cluster.iterrows():     
-            data.append({
-                "id": index,
-                "location": row["location"],
-                "cluster": row["clusters"]
-            })
+    locations = model_df.loc[model_df["location"].str.contains("|".join(keywords))]
+    locations_filtred_by_cluster = locations.loc[locations["clusters"] == cluster]
+    
+    for index, row in locations_filtred_by_cluster.iterrows():     
+        data.append({
+            "id": index,
+            "location": row["location"],
+            "cluster": row["clusters"]
+        })        
 
     return render_template("search.html", data = data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0")
